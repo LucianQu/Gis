@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_menu_bg"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/refresh_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/refresh_btn_bg" 
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:text="1小时"
+                android:background="@drawable/column" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/column"
+                android:gravity="center"
+                android:text="2小时"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3小时"
+                android:textSize="12dp"
+                android:background="@drawable/column" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6小时"
+                android:textSize="12dp"
+                android:background="@drawable/column" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="12小时"
+                android:textSize="12dp"
+                android:background="@drawable/column" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="24小时"
+                android:textSize="12dp"
+                android:background="@drawable/column" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/below_10_mm"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:background="@drawable/column"
+               />
+
+            <TextView
+                android:id="@+id/rain_tab_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:clickable="true"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:text="@string/between_10_25_mm"
+                android:background="@drawable/column"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:text="@string/between_25_50_mm"
+                android:background="@drawable/column"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:text="@string/between_50_100_mm"
+                android:background="@drawable/column"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:text="@string/between_100_250_mm"
+                android:background="@drawable/column"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:text="@string/between_above_250_mm"
+                android:background="@drawable/column"
+                />
+
+            <TextView
+                android:id="@+id/rain_tab_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="超警"
+                android:textSize="12dp"
+                android:background="@drawable/column"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rain_tab_37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/rain_tab_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+  <!--   <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+         <Button
+            android:id="@+id/total_rainfall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/total_rainfall_btn"
+            android:text="@string/total_rain"
+            />
+        
+    </LinearLayout> -->
+    
+</LinearLayout>

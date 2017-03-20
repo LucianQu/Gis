@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/total_rainfall_adatper"
+    android:layout_width="fill_parent"
+     android:background="@drawable/all_adapter_bg"
+    android:gravity="center|center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/well_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="水井编码"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/well_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="水井名称"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/welladdr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="水井地址"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+		<Button 
+		    android:id="@+id/view_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/btn_detail_selecter"
+			android:text="查看详情"
+	 		android:layout_alignParentRight="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginRight="1dip" />  
+
+</LinearLayout>

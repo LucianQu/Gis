@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <TextView
+       android:id="@+id/lymj"
+       style="@style/app_login_item_style"
+       android:layout_width="44dp"          
+       android:background="@drawable/list_title_item_bg"
+       android:text="水  库" />
+   <TextView
+      android:id="@+id/xlsw"
+      style="@style/app_login_item_style"
+      android:background="@drawable/list_title_item_bg"
+      android:layout_width="44dp"              
+      android:text="蓄水量" />
+    <TextView
+      android:id="@+id/qntq"
+      style="@style/app_login_item_style"
+      android:background="@drawable/list_title_item_bg"
+      android:layout_width="50dp"              
+      android:text="去年同期" /> 
+
+    <TextView
+      android:id="@+id/bqntq"
+      style="@style/app_login_item_style"
+      android:background="@drawable/list_title_item_bg"
+                    
+      android:text="比去年同期" /> 
+      
+      <TextView
+      android:id="@+id/lntq"
+      style="@style/app_login_item_style"
+      android:background="@drawable/list_title_item_bg"
+                    
+      android:text="历年同期" /> 
+      
+       <TextView
+      android:id="@+id/blntq"
+      style="@style/app_login_item_style"
+      android:background="@drawable/list_title_item_bg"
+                    
+      android:text="比历年同期" /> 
+      
+
+</LinearLayout>

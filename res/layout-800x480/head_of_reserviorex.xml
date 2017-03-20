@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/layout_main"
+    android:orientation="horizontal"
+     >
+	<!-- 第一列放在HorizontalScrollView使其不横滑 -->
+    <TextView
+        android:id="@+id/countyName"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="市区"
+        android:background="@drawable/list_title_item_bg"
+        />
+
+    <TextView
+        android:id="@+id/rsnm"
+        android:layout_width="96dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+       
+        android:text="水库名称"
+        android:textSize="12sp"
+        android:background="@drawable/list_title_item_bg"
+        />
+    
+    <com.bojian.gis.util.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/sid_sname"
+        android:focusable="false" >
+
+        <com.bojian.gis.util.MyHScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/valleySq"
+                    style="@style/app_login_item_style"
+                    android:layout_width="100dp"
+                    android:background="@drawable/list_title_item_bg"
+                    android:text="流域面积" />
+
+                <TextView
+                    android:id="@+id/irrigwatlev"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="兴利水位 " />
+
+                <TextView
+                    android:id="@+id/efst"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="兴利库容" />
+                
+                 <TextView
+                    android:id="@+id/floodlv"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="汛限水位"/>
+                  
+                 <TextView
+                    android:id="@+id/floodst"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="汛限库容"/>
+                 
+                 <TextView
+                    android:id="@+id/warnlv"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="警戒水位" />
+
+                <TextView
+                    android:id="@+id/warnst"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="100dp"
+                    android:text="警戒库容"/>
+                
+                
+                <TextView
+                    android:id="@+id/ckflz"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="校核水位" />
+
+                <TextView
+                    android:id="@+id/chkst"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="校核库容" />
+                
+                
+                
+                
+                  <TextView
+                    android:id="@+id/spillForm"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="80dp"
+                    android:text="溢洪道型式"/>
+                  
+                                  
+                 
+                  <TextView
+                    android:id="@+id/rz"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="实时水位"/>
+                   <TextView
+                    android:id="@+id/ratioLv"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="80dp"
+                    android:text="比汛限水位"/>
+                  
+                  
+                 <TextView
+                    android:id="@+id/w"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="蓄水量"/>
+                 <TextView
+                    android:id="@+id/ratioSt"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="80dp"
+                    android:text="比汛限库容"/>
+                 <TextView
+                    android:id="@+id/otqHole"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="输水洞"/>
+                 <TextView
+                    android:id="@+id/otqRode"
+                    style="@style/app_login_item_style"
+                    android:background="@drawable/list_title_item_bg"
+                    android:layout_width="60dp"
+                    android:text="溢洪道"/>
+                 
+            </LinearLayout>
+        </com.bojian.gis.util.MyHScrollView>
+    </com.bojian.gis.util.InterceptScrollContainer>
+
+</LinearLayout>

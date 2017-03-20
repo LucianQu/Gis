@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_bg"
+    android:id="@+id/water_condition_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="#00000000"
+    android:divider="@drawable/hr_line"
+    android:dividerHeight="3dip"
+    android:fadingEdge="none"
+    android:fastScrollEnabled="true"
+    android:focusable="false"
+    android:scrollbarStyle="insideInset" >
+
+</ListView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_bg" >
+
+        <Button
+            android:id="@+id/titlebar_back"
+            android:layout_width="110dp"
+            android:layout_height="32dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:text="@string/back"
+            android:paddingLeft="20dp"
+            android:background="@drawable/back_bg_b"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/total_rainfall"
+            android:layout_width="110dp"
+            android:layout_height="32dp"
+            android:background="@drawable/totalrainfall_bg"
+            android:textSize="16sp"
+            android:text="累计雨量"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/titlebar_other"
+            android:layout_width="110dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/custom"
+            android:textSize="16sp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/titlebar_customer_bg"
+            android:gravity="right|center_vertical"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/titlebar_city"
+            android:layout_width="110dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="15dp"
+            android:background="@drawable/titlebar_spinner_bg"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

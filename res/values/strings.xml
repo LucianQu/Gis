@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">农田灌溉查询系统</string>
+    <string name="user_login">用户登录</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">加载中...</string>
+    <string name="acount">账&#160;&#160;&#160;&#160;号:</string>
+    <string name="password">密&#160;&#160;&#160;&#160;码:</string>
+    <string name="server">服务器:</string>
+    <string name="save_password">记住密码</string>
+    <string name="login">登陆</string>
+    <string name="back">返 回</string>
+    <string name="title">标题</string>
+    <string name="other">其他</string>
+    <string name="item_default_text">默认文本</string>
+    <string name="auto_login">自动登录</string>
+    <string name="titlebar_title">农田灌溉查询系统系统</string>
+    <string name="site_name">站&#160;&#160;&#160;&#160;名</string>
+    <string name="site_address">所在地</string>
+    <string name="time">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;时&#160;&#160;&#160;&#160;间</string>
+    <string name="water_level">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;水位(m)</string>
+    <string name="water_litmited">超警/限(米)</string>
+    <string name="import_river">重点河道</string>
+    <string name="forcast_duanmian">河道</string>
+    <string name="peak_discharge">洪峰流量</string>
+    <string name="peak_total_volume">对应水位</string>
+    <string name="peak_time">洪水历时</string>
+    <string name="latest_rainfall">实时降雨</string>
+    <string name="corresponding_waterlevel">对应水位</string>
+    <string name="forcast_time">洪现时间</string>
+    <string name="flood_forcast">水文预报</string>
+    <string name="local_weather">当地天气</string>
+    <string name="weather_forcast">天气预报</string>
+    <string name="data_loading">数据加载中...</string>
+    <string name="map_not_ready">未准备好</string>
+    <string name="data_list">数据列表</string>
+    <string name="map">地图</string>
+    <string name="rain_condition_station_distribute">雨情预警</string>
+    <string name="water_condition_station_distribute">水情预警</string>
+    <string name="warning_msg">预警信息</string>
+    <string name="warning_level">级别</string>
+    <string name="start_time">开始时间:</string>
+    <string name="end_time">结束时间:</string>
+    <string name="please_input_time">请输入时间</string>
+    <string name="please_input_city">请输入城市</string>
+    <string name="other_error">连接失败</string>
+    <string name="parser_error">服务器忙</string>
+    <string name="no_network">网络不可用</string>
+    <string name="dialog_btn_setting">设置</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="url_error">服务器繁忙</string>
+    <string name="nofound_error">服务器正忙</string>
+    <string name="net_overtime">网络链接超时</string>
+    <string name="dialog_btn_again">再来一次</string>
+    <string name="rain_volume">雨量</string>
+    <string name = "warning_value_mm">预警值</string>
+    <string name = "warning_value_m">预警值</string>
+    <string name = "total_rainfall">累计雨量(毫米)</string>
+    <string name="total_rain">累计雨量</string>
+    <string name="today">今日</string>
+    <string name="three_days">三日</string>
+    <string name="seven_days">七日</string>
+    <string name="one_month">一个月</string>
+    <string name="custom">自定义</string>
+    <string name="reservior">大中型水库</string>
+    <string name="super_level">超警(m)</string>
+    <string name="search">查询</string>
+    <string name="rain_detail">雨情详情</string>
+    <string name="city">城市:</string>
+    <string name="WXYT">卫星云图</string>
+    <!--  -->
+    <string name="below_10_mm">&lt;10mm</string>
+    <string name="between_10_25_mm">10-25mm</string>
+    <string name="between_25_50_mm">25-50mm</string>
+    <string name="between_50_100_mm">50-100mm</string>
+    <string name="between_100_250_mm">100-250mm</string>
+    <string name="between_above_250_mm"> &gt;=250mm</string>
+    <!-- 累计雨量 -->
+    <string name ="totalrain_name">名   称</string>
+    <string name ="totalrain_last">本次降雨</string>
+    <string name ="totalrain_year">年度雨量</string>
+    <string name ="totalrain_afteryear">去年同期</string>
+    <string name ="totalrain_allyear">历年同期</string>
+    
+    <!--用水记录  -->
+    <string name = "water_using_name">用水户</string>
+    <string name = "water_using_water">用水量</string>
+    <string name = "water_using_starttm">开泵时间</string>
+    <string name = "water_using_offtm">关泵时间</string>
+    <string name = "water_using">用水记录</string>
+    
+    <!--充值记录  -->
+    <string name = "recharge_name">用水户</string>
+    <string name = "recharge_dealtime">售水时间</string>
+    <string name = "recharge_dealingprice">售水金额</string>
+    <string name = "recharge_dealingprice_E">售电金额</string>
+    <string name = "recharge_remainPrice">剩余水量</string>
+    <string name = "recharge_remainPrice_E">剩余电量</string>
+    <string name = "recharge_info">充值记录</string>
+    
+    
+    <!--开关泵记录  -->
+    <string name = "well_no">水井编号</string>
+    <string name = "well_name">水井名称</string>
+    <string name = "well_addr">水井地址</string>
+    <string name = "well_detial">查看详情</string>
+    <string name = "pump_on">开泵</string>
+    <string name = "pump_off">关泵</string>
+    <string name = "pumponoff_option">开关泵操作</string>
+    <string name = "pumponoff_record">开关泵记录</string>
+    
+    <!-- 关于 -->
+    <string name ="system_version">系统版本:版本V1.0</string>
+    <string name ="copy_right">版权所有:北京奥特美克科技股份有限公司</string>
+    <string name = "technical_support">技术支持:北京奥特美克科技股份有限公司</string>
+    <string name ="contact_number">联系电话:01082894254/55</string>
+    
+    
+    
+    
+    
+
+</resources>

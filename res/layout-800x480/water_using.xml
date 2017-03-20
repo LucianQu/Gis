@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar" />
+
+    <FrameLayout
+        android:id="@+id/time_tv"
+        style="@drawable/top_btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@drawable/top_btn_bg"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/time_txt_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="12112"
+            android:textSize="13.0dip" />
+
+    </FrameLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_of_waterusing" />
+
+    <ListView
+        android:id="@+id/water_using_listview"
+        android:background="@drawable/list_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/hr_line"
+        android:dividerHeight="3dip"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:scrollbarStyle="outsideInset" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>

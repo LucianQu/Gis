@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/all_adapter_bg"
+    android:gravity="center|center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/water_forcast_sitename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/forcast_duanmian"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/water_forcast_peak_discharge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/peak_discharge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/water_forcast_floodvalue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/peak_total_volume"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/water_forcast_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="@string/forcast_time"
+        android:textSize="12sp" />
+
+</LinearLayout>

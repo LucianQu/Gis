@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/titlebar" />
+          
+        <FrameLayout 
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+        	
+        
+        	<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip" 
+            android:layout_gravity="bottom">
+
+            <RadioGroup
+                android:id="@+id/content_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:layout_gravity="bottom"
+                android:background="@drawable/titlebar_bg"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/content_radio_button0"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:checked="true"
+                    android:drawableTop="@drawable/bottom2_recommend_rain"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/content_radio_button1"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:drawableTop="@drawable/bottom2_catid"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+
+</TabHost>

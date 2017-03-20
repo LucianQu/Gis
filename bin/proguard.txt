@@ -1,0 +1,78 @@
+# view 800x480\res/layout-800x480/water_condition_map.xml #generated:2
+-keep class com.baidu.mapapi.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.bojian.gis.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.bojian.gis.ui.CityQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.bojian.gis.ui.IndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.bojian.gis.ui.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.bojian.gis.ui.MActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.bojian.gis.ui.MListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.bojian.gis.ui.MMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.bojian.gis.ui.MainMenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.bojian.gis.ui.NListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.bojian.gis.ui.PumpOnoffActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.bojian.gis.ui.PumpOnoffRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.bojian.gis.ui.RainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.bojian.gis.ui.RainTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.bojian.gis.ui.RechargeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.bojian.gis.ui.ReserviorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.bojian.gis.ui.Resservior_DatetimeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.bojian.gis.ui.SatelliteCloudImageryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.bojian.gis.ui.TimeQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.bojian.gis.ui.TotalRainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.bojian.gis.ui.WaterConditionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.bojian.gis.ui.WaterForcastActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.bojian.gis.ui.WaterUsingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.bojian.gis.ui.WeatherForcastActivity { <init>(...); }
+
+# view 800x480\res/layout-800x480/head_of_reserviorex.xml #generated:32
+-keep class com.bojian.gis.util.InterceptScrollContainer { <init>(...); }
+
+# view 800x480\res/layout-800x480/head_of_reserviorex.xml #generated:40
+-keep class com.bojian.gis.util.MyHScrollView { <init>(...); }
+
